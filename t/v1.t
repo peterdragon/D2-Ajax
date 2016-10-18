@@ -2,9 +2,10 @@ use strict;
 use warnings;
  
 use D2::Ajax;
-use Test::More tests => 1;
+use Test::More tests => 2;
 use Plack::Test;
 use HTTP::Request::Common;
+use Test::NoWarnings;
  
 subtest v1_greeting => sub {
     plan tests => 4;
